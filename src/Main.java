@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Программа для расчет корней квадратного уравнения вида ax2 + bx + c = 0");
-        System.out.println("Введите коэффициенты a,b и с через пробел:");
+        System.out.println("Введите коэффициенты a, b и с через пробел:");
         Scanner scanner = new Scanner(System.in);
         int coefA = getCoef(scanner);
         int coefB = getCoef(scanner);
