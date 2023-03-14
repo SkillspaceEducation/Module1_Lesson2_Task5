@@ -13,6 +13,7 @@ public class Main {
         int coefA = getCoef(scanner);
         int coefB = getCoef(scanner);
         int coefC = getCoef(scanner);
+        scanner.close();
         double discrim = getDiscrim(coefA, coefB, coefC);
         outCalcRoot(coefA, coefB, coefC, discrim);
     }
